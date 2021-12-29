@@ -429,7 +429,7 @@ img#pic-of-me {
     font-size: 1.2rem;
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 220px;
 }
 
 p a {
@@ -930,7 +930,7 @@ button[type="submit"]:hover:after {
     display: flex;
     justify-content: center;
     position: relative;
-    bottom: 50px;
+    bottom: 70px;
     text-align: center;
     padding: 10px;
     margin: 0 auto;
