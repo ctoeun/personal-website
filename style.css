@@ -286,6 +286,10 @@
     .hero__description {
         font-size: 40px;
     }
+
+    .hero .quote {
+        font-size: .8rem;
+    }
 }
 
 /* About section */
@@ -495,6 +499,12 @@ p a:hover {
     }
 }
 
+@media screen and (max-width: 768px) {
+    .main .quote {
+        font-size: .8rem;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .main__img--card {
         width: 250px;
@@ -627,7 +637,6 @@ p a:hover {
 .portfolio__card:hover {
     transform: scale(1.075);
     transition: 0.3s ease-in;
-    cursor: pointer;
 }
 
 .portfolio__button:hover {
@@ -646,6 +655,11 @@ p a:hover {
 @media screen and (max-width: 768px) {
     .portfolio__wrapper {
         grid-template-columns: 1fr;
+    }
+
+    .portfolio .quote {
+        font-size: .8rem;
+        max-width: 95%;
     }
 }
 
@@ -840,6 +854,16 @@ body.new-page-background {
 
 p#p2, p#p3, p#p4 {
     margin-top: 2rem;
+}
+
+@media screen and (max-width: 480px) {
+    .aboutme__container h1 {
+        font-size: 1.5rem;
+    }
+    
+    .aboutme__container p {
+        font-size: .7rem;
+    }
 }
 
 
