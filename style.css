@@ -834,7 +834,7 @@ body.new-page-background {
 
 .aboutme__container h1 {
     background-color: #fd1d1d;
-    background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);
+    background-image: linear-gradient(to right, #ff087b 25%, #fd1d1d 100%);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -852,8 +852,18 @@ body.new-page-background {
     line-height: 2.5rem;
 }
 
-p#p2, p#p3, p#p4 {
+p#p2, p#p3 {
     margin-top: 2rem;
+}
+
+a.link {
+    background-color: #fd1d1d;
+    background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
 }
 
 @media screen and (max-width: 480px) {
