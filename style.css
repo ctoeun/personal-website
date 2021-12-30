@@ -1059,10 +1059,11 @@ section.project-gallery {
     object-fit: cover;
     object-position: 50% 50%;
     transition: 0.5s ease-in-out;
+    transform: scale(1.3);
 }
 
 .gallery-item:hover .image img {
-    transform: scale(1.5);
+    transform: scale(1);
 }
 
 .gallery-item .text {
@@ -1141,4 +1142,34 @@ section.project-gallery {
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
+}
+
+/* Experience page */
+.experience__container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.experience__container h1 {
+    background-color: #fd1d1d;
+    background-image: linear-gradient(to right, #ff087b 25%, #fd1d1d 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.experience__container p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 2.5rem;
 }
