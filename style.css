@@ -1172,3 +1172,28 @@ section.project-gallery {
     font-size: 1.3rem;
     line-height: 2.5rem;
 }
+
+/* Hobbies and interest page */
+
+.hobbies__container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 4rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.hobbies__container h1 {
+    background-color: #fd1d1d;
+    background-image: linear-gradient(to right, #ff087b 25%, #fd1d1d 100%);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 2rem;
+}
