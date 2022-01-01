@@ -854,13 +854,25 @@ a.link {
     -moz-text-fill-color: transparent;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .aboutme__container h1 {
         font-size: 1.5rem;
     }
     
     .aboutme__container p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .aboutme__container h1 {
+        font-size: 1.3rem;
+    }
+    
+    .aboutme__container p {
         font-size: .7rem;
+        line-height: 1.3rem;
     }
 }
 
@@ -879,7 +891,7 @@ a.link {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 2px;
-    margin-top: 3.5rem;
+    margin-top: 2.5rem;
     text-align: center;
 }
 
@@ -898,8 +910,8 @@ a.link {
     width: 90%;
     margin: 0 auto;
     padding: 20px;
-    margin-top: 3.5rem;
-    margin-bottom: 6rem;
+    margin-top: 1.5rem;
+    margin-bottom: 5rem;
     text-align: left;
     background-color: #131313;
     box-shadow: 0 0 1px gray;
