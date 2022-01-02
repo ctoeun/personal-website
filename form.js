@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded", function () {
     status.textContent = "Successully submitted!";
     setTimeout(function () {
       window.location.reload();
-    }, 2500);
+    }, 4500);
   }
 
   function error() {
@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", function () {
     status.textContent = "Oops! There was a problem.";
     setTimeout(function () {
       window.location.reload();
-    }, 2500);
+    }, 4500);
   }
 
   // handle the form submission event
