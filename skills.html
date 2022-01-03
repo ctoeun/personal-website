@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact — Cobi Toeun</title>
-    <link rel="shortcut icon" href="/img/site-logo.png"/>
+    <title>Skills — Cobi Toeun</title>
+    <link rel="shortcut icon" href="/img/site-logo.png" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
         integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -41,37 +41,86 @@
         </div>
     </nav>
 
-    <!-- Contact me page -->
-    <section class="contact-page">
-        <div class="header">
-            <h1>Have something in mind?</h1>
+    <!-- Skills page -->
+    <div class="skills__inner">
+        <div class="skills__header">
+            <h1>TECHNICAL SKILLS</h1>
         </div>
-        <div class="contact__container">
-            <!-- https://formspree.io/ -->
-            <form action="https://formspree.io/f/mqknaplv" method="POST" id="my-form">
-                <h2>Send me a message :)</h2>
-                <div class="form__group">
-                    <label for="fname"><strong>First Name <span style="color: #fd1d1d">*</span></strong></label>
-                    <input type="text" id="fname" name="First Name" placeholder="John" required>
+        <div class="skills__container">
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="img/icons/html.png" alt="" class="skill-icon">
+                    </div>
+                    <h3>HTML</h3>
                 </div>
-                <div class="form__group">
-                    <label for="fname"><strong>Last Name <span style="color: #fd1d1d">*</span></strong></label>
-                    <input type="text" id="lname" name="Last Name" placeholder="Doe" required>
+                <p>Structures content of my web documents using sets of paragraphs, lists, and/or media</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="img/icons/css.png" alt="" class="skill-icon">
+                    </div>
+                    <h3>CSS</h3>
                 </div>
-                <div class="form__group">
-                    <label for="email"><strong>Email <span style="color: #fd1d1d">*</span></strong></label>
-                    <input type="email" id="email" name="Email" placeholder="johndoe@email.com" required>
+                <p>Gives style to my web documents, including colors, layout, and fonts</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="img/icons/javascript.png" alt="" class="skill-icon">
+                    </div>
+                    <h3>JavaScript</h3>
                 </div>
-                <div class="form__group">
-                    <label for="message"><strong>Message <span style="color: #fd1d1d">*</span></strong></label>
-                    <textarea id="message" name="Message" cols="50" rows="10"
-                        placeholder="I would like to know more about..." required></textarea>
+                <p>Used to implement interactive elements for users on my web documents</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="img/icons/git.png" alt="" class="skill-icon">
+                    </div>
+                    <h3>Git</h3>
                 </div>
-                <button type="submit">Send</button>
-            </form>
+                <p>Version control system used to track changes of my code through GitHub servers</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="img/icons/java.png" alt="" class="skill-icon">
+                    </div>
+                    <h3>Java</h3>
+                </div>
+                <p>My strongest programming language used to develop programs with DSA and OOP</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="img/icons/python.png" alt="" class="skill-icon">
+                    </div>
+                    <h3>Python</h3>
+                </div>
+                <p>Programming language used on programs to conduct data science and analysis</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="img/icons/premiere-pro.png" alt="" class="skill-icon">
+                    </div>
+                    <h3>Premiere Pro</h3>
+                </div>
+                <p>Used to create travel videos and quick edits for my social media profiles and side projects</p>
+            </div>
+            <div class="skill-box">
+                <div class="skill-title">
+                    <div class="skill-img">
+                        <img src="img/icons/photoshop.png" alt="" class="skill-icon">
+                    </div>
+                    <h3>Photoshop</h3>
+                </div>
+                <p>Used to manipulate and color correct images for my social media profiles and side projects</p>
+            </div>
         </div>
-        <div id="status"></div>
-    </section>
+    </div>
 
     <!-- Footer section -->
     <div class="footer__container">
@@ -118,7 +167,7 @@
                         id="youtube-icon" target="_blank">
                         <i class="fab fa-youtube"></i>
                     </a>
-                    <a href="contact.html" class="social__icon--link" id="email-icon">
+                    <a href="" class="social__icon--link" id="email-icon" target="_blank">
                         <i class="far fa-envelope"></i>
                     </a>
                 </div>
@@ -127,7 +176,6 @@
     </div>
 
     <script src="app.js"></script>
-    <script src="form.js"></script>
 </body>
 
 </html>
