@@ -7,5 +7,3 @@
 <br></br>
 
 ![ScreenShot](/img/front-page.PNG)
-
-<br></br>
