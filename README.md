@@ -5,5 +5,3 @@
   <li>Programmed with <strong>mobile responsiveness</strong> and includes a working <a href="https://www.cobitoeun.com/contact.html" target="_blank">contact form</a> for users to send messages.</li>
 </ul></h3>
 <br></br>
-
-![ScreenShot](/img/front-page.PNG)
