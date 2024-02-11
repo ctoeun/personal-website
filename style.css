@@ -40,10 +40,11 @@
 }
 
 .navbar__heading span {
-    background: #de6161;
+    /*background: #de6161;*/ 
+    background: #fff;
 
-    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
-    background: linear-gradient(to right, #2657eb, #de6161);
+    /*background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+    background: linear-gradient(to right, #2657eb, #de6161); */
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -93,17 +94,22 @@
     justify-content: center;
     align-items: center;
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 15px;
     height: 100%;
     width: 100%;
     border: none;
     outline: none;
-    border-radius: 4px;
+    border-radius: 75px; /*4px*/
     /* uigradients.com */
+    /*
     background: #833ab4;
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    color: #fff;
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); */
+    background: white;
+    /*background: -webkit-linear-gradient(to right, #F00000, #DC281E);
+    background: linear-gradient(to right, #F00000, #DC281E);*/
+    border: 2px solid white;
+    color: black; /*#fff*/
     transition: all 0.3s ease;
 }
 
@@ -213,8 +219,8 @@
 
 /* Hero Section */
 .hero {
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: #111111;
+    /*background: linear-gradient(to right, #161616, #000000);*/
     padding: 200px 0;
 }
 
@@ -237,12 +243,13 @@
 }
 
 .hero__heading span {
-    background: #de6161;
+    /*background: #de6161;*/
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2657eb, #de6161);
+    /*background: -webkit-linear-gradient(to right, #2657eb, #de6161);*/
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2657eb, #de6161);
+    /*background: linear-gradient(to right, #2657eb, #de6161);*/
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff;
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -252,8 +259,8 @@
 
 .hero__description {
     font-size: 60px;
-    background-color: #fd1d1d;
-    background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);
+    background-color: red;
+    /*background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);*/
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -264,7 +271,7 @@
 
 .hero .quote {
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma, Verdana, sans-serif;
     margin-bottom: 5rem;
     font-size: 1.2rem;
     text-align: center;
@@ -290,10 +297,10 @@
     }
 }
 
-/* About section */
+/* About and Contact section */
 .main {
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: #111111;
+    /*background: linear-gradient(to right, #161616, #000000);*/
     padding: 200px 0;
 }
 
@@ -318,8 +325,8 @@
 
 .main__content h1 {
     font-size: 2rem;
-    background-color: #fd1d1d;
-    background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);
+    background-color: red;
+    /*background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);*/
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -349,13 +356,16 @@
 }
 
 .main__btn {
-    font-size: 1.8rem;
-    background: #833ab4;
+    font-size: 1.5rem;
+    background: none;
+    /*
     background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    padding: 20px 35px;
-    border: none;
-    border-radius: 4px;
+    background: -webkit-linear-gradient(to right, #F00000, #DC281E);
+    background: linear-gradient(to right, #F00000, #DC281E); */
+    padding: 15px 25px;
+    border: 2px solid white;
+    border-radius: 75px;
     color: #fff;
     margin-top: 2rem;
     cursor: pointer;
@@ -416,7 +426,7 @@ img#pic-of-me {
 
 .main .quote {
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma, Verdana, sans-serif;
     margin-bottom: 5rem;
     font-size: 1.2rem;
     text-align: center;
@@ -529,15 +539,15 @@ p a:hover {
 
 /* Portfolio section */
 .portfolio {
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: #111111;
+    /*background: linear-gradient(to right, #161616, #000000);*/
     padding: 200px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100%;
-    padding: 10rem 0;
+    padding: 15rem 0;
 }
 
 .portfolio .quote {
@@ -551,12 +561,12 @@ p a:hover {
     -moz-text-fill-color: transparent;
     */
     color: #fff;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Tahoma, Verdana, sans-serif;
     margin-bottom: 5rem;
     font-size: 1.2rem;
     text-align: center;
     position: relative;
-    top: 200px;
+    top: 260px;
 }
 
 .portfolio__wrapper {
@@ -617,7 +627,7 @@ p a:hover {
     padding: 14px 24px;
     border: none;
     outline: none;
-    border-radius: 4px;
+    border-radius: 50px;
     background: #131313;
     font-size: 1rem;
 }
@@ -628,8 +638,11 @@ p a:hover {
 }
 
 .portfolio__button:hover {
+    
+    /*
     background-color: #fd1d1d;
     background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);
+    */
     background-size: 100%;
     cursor: pointer;
 }
@@ -805,8 +818,8 @@ p a:hover {
 /* Background for extra pages */
 
 body.new-page-background {
-    background: #000000;
-    background: linear-gradient(to right, #161616, #000000);
+    background: #111111;
+    /*background: linear-gradient(to right, #161616, #000000);*/
 }
 
 /* About me webpage */
@@ -821,7 +834,6 @@ body.new-page-background {
 }
 
 .aboutme__container h1 {
-    background-color: #fd1d1d;
     background-image: linear-gradient(to right, #ff087b 25%, #fd1d1d 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -880,8 +892,8 @@ a.link {
 /* Contact me page */
 
 .header h1 {
-    background-color: #fd1d1d;
-    background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);
+    background-color: red;
+    /*background-image: linear-gradient(to right, #ff087b 0%, #fd1d1d 100%);*/
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -914,7 +926,7 @@ a.link {
     margin-bottom: 5rem;
     text-align: left;
     background-color: #131313;
-    box-shadow: 0 0 1px gray;
+    box-shadow: 0 0 1.5px white;
 }
 
 .contact__container h2 {
